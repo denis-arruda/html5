@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+    
+    <head>
+        <title>HTML 5 Course</title>
+    </head>
+    
+    <body>
+        <form action="newPage.html" method="get">
+            
+            <fieldset>
+                 <legend>Required Information</legend>
+            
+            
+         <div>
+            <label for+"name">Name:</label>
+            <input type="text" id="name" name="userName" required placeholder="User Name">
+         </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+                </fieldset>
+            
+        <div>
+            <label for="age">How old are you?</label>
+            <input type="number" id="age" name="age" min="0"><br>
+        </div>
+            
+        <div>
+            <label for="age">Birth?</label>
+            <input type="date" id="birth" name="birth"><br>
+        </div>
+            
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4"
+                      cols="40" maxlength="40"
+                      placeholder="Message">The text goes here</textarea><br>
+        </div>
+        <div>
+            <label for="q2">What's your favorite fruit?</label>
+            <input type="text" id="q2" name="fav" list="list1">
+            <datalist id="list1">
+                <option>Banana</option>
+                <option>Cherry</option>
+                <option>Apple</option>
+            </datalist>
+        </div>
+            <br>
+        <div>
+            <input type="submit">
+        </div>
+      </form>
+    </body>
+    
+</html>
